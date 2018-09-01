@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Libre+Baskerville:400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/styles.css">
+		<title>Ben Warmuth - UI/UX Designer</title>
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="top-nav pb-25">
+			<div class="logo">
+				<a href="/index.html">Ben Warmuth</a>
+			</div>
+			<div class="nav-item">
+				<a href="/index.html" class="nav-link">WORK</a>
+			</div>
+			<div class="nav-item">
+				<a href="/about" class="nav-link">ABOUT</a>
+			</div>
+		</nav>
+		<!-- Work -->
+		<h2 class="pt-100 pb-25 pl-25 pr-25">Winsupply - Pattern Library</h2>
+		<div class="work">
+			<div class="work-text">
+				<p>
+					The Winsupply Pattern Library is a collection of UI components used across all of the applications we are developing for desktop, tablet, phone, and even warehouse scan gun devices. We have developed three different versions of this design system - one for Bootstrap 3 applications, one for Bootstrap 4 applications, and one with an in-development in-house framework built with CSS Grid.
+				</p>
+			</div>
+			<div class="work-2-up mt-25 mb-25">
+				<div class="work-item">
+					<a href="#img1">
+						<img src="/img/ws-pl/pattern-library-1.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img1">
+					  <img src="/img/ws-pl/pattern-library-1.png">
+					</a>
+				</div>
+				<div class="work-item">
+					<a href="#img2">
+						<img src="/img/ws-pl/pattern-library-2.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img2">
+					  <img src="/img/ws-pl/pattern-library-2.png">
+					</a>
+				</div>
+			</div>
+			<h3 class="section-title">A Collection of Components</h3>
+			<div class="work-text">
+				<p>
+					The Winsupply Design System contains most of the common, shared components we use across all of our applications and very much acts as a style guide as well. This includes things as small as typography choices and button styles to things as complex as cards and panels.
+				</p>
+				<p class="pt-25">
+					To build this, I began in Adobe Illustrator, creating a static, vector version of our design system at the time. After that, I recreated all of our components in Axure as a reusable and shareable widget library. Then, with Bootstrap 3, I created the first version of the design system, writing all of the HTML and SCSS myself.
+				</p>
+			</div>
+			<div class="work-2-up mt-25 mb-25">
+				<div class="work-item">
+					<a href="#img3">
+						<img src="/img/ws-pl/pattern-library-6.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img3">
+					  <img src="/img/ws-pl/pattern-library-6.png">
+					</a>
+				</div>
+				<div class="work-item">
+					<a href="#img4">
+						<img src="/img/ws-pl/pattern-library-7.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img4">
+					  <img src="/img/ws-pl/pattern-library-7.png">
+					</a>
+				</div>
+			</div>
+			<div class="work-text">
+				<p>
+					Because some of our applications were already under development at the time I joined Winsupply, much of the design system had to be reverse engineered so we could create reusable components with a centralized CSS file that all of our apps could reference. We then hosted the design system on a company created CDN so that it was accessible company-wide.
+				</p>
+				<p class="pt-25">
+					Eventually, I ported the design system from Bootstrap 3 to Bootstrap 4. Most of our current apps are being built on Bootstrap 4, so we needed to be able to represent all of these components with that framework. The challenge behind this was that the underlying grid for Bootstrap changed from a float-based grid to a flexbox-based grid. Many naming conventions for classes changed as well.
+				</p>
+				<p class="pt-25">
+					Finally, I began porting the design system one more time. This time, my plan was to completely remove Bootstrap entirely. My rationale was that, by removing Bootstrap and creating our own framework internally, we could speed up our applications by loading smaller CSS files and less javascript over all. And by building the entire thing with CSS Grid, we'd even reduce our HTML file size and make apps that much easier to build.
+				</p>
+			</div>
+			<div class="work-3-up mt-25 mb-25">
+				<div class="work-item">
+					<a href="#img5">
+						<img src="/img/ws-pl/pattern-library-3.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img5">
+					  <img src="/img/ws-pl/pattern-library-3.png">
+					</a>
+				</div>
+				<div class="work-item">
+					<a href="#img6">
+						<img src="/img/ws-pl/pattern-library-4.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img6">
+					  <img src="/img/ws-pl/pattern-library-4.png">
+					</a>
+				</div>
+				<div class="work-item">
+					<a href="#img7">
+						<img src="/img/ws-pl/pattern-library-5.png" alt="Pattern Library" class="pt-10">
+					</a>
+					<a href="#_" class="lightbox" id="img7">
+					  <img src="/img/ws-pl/pattern-library-5.png">
+					</a>
+				</div>
+			</div>
+			<div class="work-navigation pt-25">
+				<a href="/index.html" class="work-nav">Home</a>
+				<span class="work-nav current-page">Winsupply - Pattern Library</span>
+				<a href="/work/purchase-orders/" class="work-nav">Winsupply - Purchase Orders</a>
+				<a href="/work/53/biz-rules/" class="work-nav">Fifth Third - Business Rules</a>
+				<a href="/work/53/csc-auth/" class="work-nav">Fifth Third Bank - Authentication</a>
+				<a href="/work/tg-lp/" class="work-nav">Top Gun Sales Performance - Learning Portal</a>
+			</div>
+		</div>
+	</body>
+</html>
