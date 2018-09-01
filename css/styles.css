@@ -1,4 +1,4 @@
-:root { --black: 0,0,0; --white: 255,255,255; --font-color: 34,34,34; --background-color: 34,34,34; --primary-color: #00929c; --border-color: #eeeeee; --header-font: 'Oswald', sans-serif; --body-font: 'Libre Baskerville', serif; }
+:root { --black: 0,0,0; --black-shadow: 0,0,0,.37; --white: 255,255,255; --font-color: 34,34,34; --background-color: 34,34,34; --primary-color: #00929c; --border-color: #eeeeee; --header-font: 'Oswald', sans-serif; --body-font: 'Libre Baskerville', serif; }
 
 .mt-0 { margin-top: 0rem !important; }
 
