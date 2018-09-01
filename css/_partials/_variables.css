@@ -1,0 +1,10 @@
+:root {
+  --black: 0,0,0;
+  --black-shadow: 0px 5px 7px 0px rgba(0,0,0,.37);
+  --white: 255,255,255;
+  --font-color: 34,34,34;
+  --background-color: 34,34,34;
+  --primary-color: #00929c;
+  --border-color: #eeeeee;
+  --header-font: 'Oswald', sans-serif;
+  --body-font: 'Libre Baskerville', serif; }
