@@ -1,4 +1,4 @@
-:root { --black: 0,0,0; --black-shadow: 0,0,0,.37; --white: 255,255,255; --font-color: 34,34,34; --background-color: 34,34,34; --primary-color: #00929c; --border-color: #eeeeee; --header-font: 'Oswald', sans-serif; --body-font: 'Libre Baskerville', serif; }
+:root { --black: 0,0,0; --black-shadow: 0px 5px 7px 0px rgba(0,0,0,.37); --white: 255,255,255; --font-color: 34,34,34; --background-color: 34,34,34; --primary-color: #00929c; --border-color: #eeeeee; --header-font: 'Oswald', sans-serif; --body-font: 'Libre Baskerville', serif; }
 
 .mt-0 { margin-top: 0rem !important; }
 
@@ -222,7 +222,7 @@ a { color: var(--primary-color); text-decoration: none; }
 
 p { line-height: 1.5; }
 
-.top-nav { display: grid; grid-template-columns: 3fr 1fr 1fr; grid-template-rows: 5rem; justify-items: end; -webkit-box-align: end; -ms-flex-align: end; align-items: end; font-family: var(--header-font); font-size: 2.8rem; background-color: rgba(var(--background-color), 1); color: rgba(var(--white), 1); position: fixed; width: 100vw; max-width: 100%; z-index: 999; -webkit-box-shadow: 2px 5px 7px 0px rgba(var(--black), 0.37); box-shadow: 2px 5px 7px 0px rgba(var(--black), 0.37); }
+.top-nav { display: grid; grid-template-columns: 3fr 1fr 1fr; grid-template-rows: 5rem; justify-items: end; -webkit-box-align: end; -ms-flex-align: end; align-items: end; font-family: var(--header-font); font-size: 2.8rem; background-color: rgba(var(--background-color), 1); color: rgba(var(--white), 1); position: fixed; width: 100vw; max-width: 100%; z-index: 999; -webkit-box-shadow: var(--black-shadow); box-shadow: var(--black-shadow); }
 
 .top-nav .logo { justify-self: start; padding-left: 1rem; }
 
@@ -310,3 +310,5 @@ p { line-height: 1.5; }
 .lightbox img { /** Pad the lightbox image */ max-width: 90%; max-height: 80%; margin-top: 2%; }
 
 .lightbox:target { /** Remove default browser outline */ outline: none; /** Unhide lightbox **/ display: block; }
+
+/*# sourceMappingURL=styles.css.map */
