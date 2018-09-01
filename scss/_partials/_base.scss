@@ -86,10 +86,11 @@ p {
 // Intro
 
 .intro {
-	background-color: var(--primary-color);
-	color: rgba(var(--white),1);
+	// background-color: var(--primary-color);
+	color: rgba(var(--black),1);
 	text-align: center;
 	padding: 9rem 3rem 1.5rem 3rem;
+	border-bottom: .1rem solid var(--border-color);
 	@media screen and (min-width: 500px) {
 		padding: 10rem 8rem 3rem 8rem;
 	}
@@ -99,7 +100,7 @@ p {
 			font-size: 1.8rem;
 		}
 		a {
-			color: rgba(var(--white),1);
+			color: var(--primary-color);
 			font-weight: bold;
 		}
 	}

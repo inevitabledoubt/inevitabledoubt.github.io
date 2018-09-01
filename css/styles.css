@@ -237,7 +237,7 @@ p { line-height: 1.5; }
 
 .top-nav .nav-item a { color: rgba(var(--white), 1); text-decoration: none; }
 
-.intro { background-color: var(--primary-color); color: rgba(var(--white), 1); text-align: center; padding: 9rem 3rem 1.5rem 3rem; }
+.intro { color: rgba(var(--black), 1); text-align: center; padding: 9rem 3rem 1.5rem 3rem; border-bottom: 0.1rem solid var(--border-color); }
 
 @media screen and (min-width: 500px) { .intro { padding: 10rem 8rem 3rem 8rem; } }
 
@@ -245,7 +245,7 @@ p { line-height: 1.5; }
 
 .intro p.headline { font-size: 1.8rem; }
 
-.intro p a { color: rgba(var(--white), 1); font-weight: bold; }
+.intro p a { color: var(--primary-color); font-weight: bold; }
 
 .about { display: grid; grid-template-columns: 1fr; grid-template-rows: auto; color: rgba(var(--white), 1); }
 
